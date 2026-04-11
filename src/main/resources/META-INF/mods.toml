@@ -1,0 +1,25 @@
+modLoader="javafxmod"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="infected_ore_info"
+version="1.0.0"
+displayName="Infected Ore Info"
+credits="Created for Jade mod support"
+authors="YourName"
+description="Shows infected ore blocks as normal diamond ore in Jade"
+
+[[dependencies.infected_ore_info]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.infected_ore_info]]
+modId="jade"
+mandatory=false
+versionRange="[15,)"
+ordering="NONE"
+side="CLIENT"
