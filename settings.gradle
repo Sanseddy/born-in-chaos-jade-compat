@@ -1,12 +1,11 @@
 pluginManagement {
     repositories {
         gradlePluginPortal()
-        maven {
-            url = 'https://maven.minecraftforge.net/'
-            allowInsecureProtocol = true
-        }
-        maven { url = 'https://maven.parchmentmc.org' }
     }
 }
 
-rootProject.name = 'infected-ore-info'
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
+}
+
+rootProject.name = 'born-in-chaos-jade-compat'
